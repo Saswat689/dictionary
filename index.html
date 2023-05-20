@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vocabulury Guru</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<div class="hero">
+			<h1>Dictionary For All</h1>
+			<form onsubmit="submitForm(event)">
+				<input type="text" name="search" placeholder="Search any meaning" id="search">
+			</form>	
+		</div>
+
+		<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_7Ri4KgCFMr.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; margin: 2rem auto;" loop autoplay class="animation-search"></lottie-player>
+
+		<div class="meaning-container"></div>
+
+	</main>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
